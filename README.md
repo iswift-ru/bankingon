@@ -1,16 +1,9 @@
 # bankingon
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Разработать мобильное приложение на Flutter.
+Приложение состоит из одного экрана, который необходимо сверстать (+ один пустой экран).
+Анимированное появление элементов крайне приветствуется.
+Нажатие на Sign In кнопку должно запускать загрузку (Future.delayed на 3 секунды), а потом, в зависимости от значения поля User ID, показать следующий экран или показать сообщение. Если User ID = “bankingon”, то необходимо открыть следующий экран (пустой экран с кнопкой назад). В любом другом случае – показать сообщение (с любым текстом).
+Pixel-perfect не требуется, размеры/отступы можно сделать на свой вкус.
+Логотип и иконки можно использовать любые.
+Приложение должно запускаться и нормально отображаться на iOS и Android (в том числе и на маленьких девайсах типа iPhone 5s).
